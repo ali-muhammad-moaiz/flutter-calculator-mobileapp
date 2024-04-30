@@ -1,0 +1,142 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+.packages
+
+build/
+ios/Pods/
+macos/Pods/
+web/packages/
+windows/Flutter/ephemeral/
+android/.gradle/
+android/app/debug/
+android/app/release/
+android/build/
+android/gradle/
+ios/Flutter/App.framework/
+ios/Flutter/Flutter.framework/
+macos/Flutter/Flutter.framework/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Flutter/Dart specific
+**/build/
+**/.idea/
+**/.vscode/
+/captures/
+/generated/
+/test/.dart_tool/
+*.lock
+*.pid
+*.metadata
+*.patch
+*.project
+*.sublime-workspace
+*.sync
+*.tags
+*.template
+*.vs
+*.vstemplate
+*.xcuserstate
+.idea/*
+!.idea/.gitkeep
+*.swo
+*.bak
+*~
+
+# Android specific
+**/android/.gradle
+**/android/.idea
+**/android/.settings
+**/android/*.iml
+**/android/app/build/
+**/android/gradle/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+
+# iOS specific
+**/ios/.simulatordevice/
+**/ios/Podfile.lock
+**/ios/Pods/
+**/ios/Runner.xcworkspace/xcuserdata/
+**/ios/.generated/
+
+# Web specific
+**/web/.dart_tool/build/
+**/web/assets/
+**/web/packages/
+**/web/.generated/
+**/web/*.js
+**/web/*.dart.js
+**/web/*.html.js
+**/web/*.html
+**/web/*.css
+**/web/*.dart.js.map
+**/web/favicon.png
+**/web/manifest.json
+**/web/*.js.map
+**/web/*.assets
+**/web/*.webmanifest
+**/web/*.part.js
+**/web/flutter_service_worker.js
+**/web/assets/*
+
+# macOS specific
+**/macos/.last_build_id
+
+# Windows specific
+**/windows/Flutter/ephemeral
+**/windows/flutter/ephemeral
+**/windows/Flutter/ephemeral/
+**/windows/flutter/ephemeral/
+
+# Linux specific
+**/linux/ephemeral
+**/linux/flutter/generated_plugin_registrant.cc
+**/linux/flutter/generated_plugin_registrant.h
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/windows/flutter/generated_plugin_registrant.cc
+**/windows/flutter/generated_plugin_registrant.h
+**/windows/flutter/generated_plugins.cmake
+# VSCode specific
+.vscode/
